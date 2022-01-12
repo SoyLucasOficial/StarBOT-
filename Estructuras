@@ -1,0 +1,55 @@
+//////////////////////Handler/////////////////////////////
+
+const Discord = require("discord.js");
+const client = new Discord.Client();
+const { Client, MessageEmbed } = require("discord.js");
+
+module.exports = {
+  name: "",
+  alias: [""],
+
+execute (client, message, args){
+
+
+
+ }
+
+} 
+
+//////////////////////Comando/////////////////////////////
+
+message.channel.send("")
+
+////////////////////Embed/////////////////////////////////
+
+const Discord = require('discord.js');
+
+module.exports = {
+  name: "",
+  alias: [""], 
+
+execute (client, message, args){
+
+  const embed = new Discord.MessageEmbed()
+  .setAuthor(``)
+  .setTitle("")
+  .setDescription("")
+  .setTimestamp()
+  .setColor("")
+  .addField("")
+  .setFooter("")
+  .setThumbnail("")
+  .setImage("")
+
+  message.channel.send(embed)
+
+
+ }
+
+}
+
+///Roles por nivel///
+
+if (user.level === nivel){
+    message.member.roles.add('ID DE ROL')
+  }

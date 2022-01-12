@@ -1,0 +1,20 @@
+{
+  "files": {
+    "index.js": [
+      {
+        "id": "ae72e018-449b-458f-a3f1-e4962d789656",
+        "line": 6,
+        "version": 5251,
+        "index": 181
+      }
+    ],
+    "json.sqlite": [
+      {
+        "id": "d994eb51-582e-4cdd-aef3-1ca7bbf6e3b8",
+        "line": 2,
+        "version": 1,
+        "index": 101
+      }
+    ]
+  }
+}
