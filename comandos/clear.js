@@ -18,7 +18,6 @@ if(valor >= 100) return message.channel.send("❌ No puedo eliminar mas de 99 me
 
 message.channel.bulkDelete(valor + 1);
 message.channel.send(`✅ Se han eliminado **${valor}** mensajes correctamente!!! ✅`)
-
  }
 
 } 

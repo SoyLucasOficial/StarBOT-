@@ -18,7 +18,7 @@ const embed = new Discord.MessageEmbed()
 .setFooter(`⚠ Reporte de ${message.author.username} ⚠`)
 .setColor("GREEN")
 
-client.users.cache.get('789128149744877569').send(embed)
+client.users.cache.get('987175599699292220').send(embed)
 
  }
 

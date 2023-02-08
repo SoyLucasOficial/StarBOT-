@@ -6,7 +6,7 @@ module.exports = {
 execute (client, message, args){
 
 
-let canal = client.channels.resolve("889869347726692393")
+let canal = client.channels.resolve("987736159536951317")
 
 let sugerencia = args.join(" ")
 

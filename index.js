@@ -23,8 +23,8 @@ client.on('ready', () => {
     client.user.setPresence({
       status: 'dnd',
       activity: {
-        name: 'Sweet Dreams',
-        type: 'WATCHING'
+        name: 'STARGAMES',
+        type: 'HECHO POR'
       }
     })
   }
@@ -112,36 +112,6 @@ if(hasLevelledUp) {
 })
 
 ///Sistema de niveles///
-
-///Distube///
-
-const Distube = require('distube')
-client.distube = new Distube(client, {
-  emitNewSongonly: true,
-  searchSongs: false,
-  leaveOnStop: false,
-  leaveOnFinish: false,
-  leaveOnEmpty: true
-});
-
-client.distube.on("addList", (message, queue, playlist) => message.channel.send(`Playlist:\n**${playlist.name}** ***${message.author}***`)
-)
-
-client.distube.on("addSong", (message, queue, song) => message.channel.send(`Añadido a la cola, ${song.name}** - **${song.formattedDuration}** ***${message.author}`)
-)
-
-client.distube.on("playsong", (message, queue, playsong) => message.channel.send(`Reproduciendo ahora: **${playsong.name}** - **${playsong.formattedDuration}** ***${message.author}***`)
-)
-
-client.distube.on("playList", (message, queue, playlist) => message.channel.send(`Reproduciendo Playlist: **${playlist.name}** ***${message.author}***`)
-)
-
-client.distube.on('initQueue', (queue) => {
-  queue.autoplay = false;
-  queue.volume = 100
-})
-
-///Distube///
 
 const mySecret = process.env['TOKEN']
 client.login(mySecret)
