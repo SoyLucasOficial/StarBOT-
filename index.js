@@ -113,5 +113,4 @@ if(hasLevelledUp) {
 
 ///Sistema de niveles///
 
-const mySecret = process.env['TOKEN']
-client.login(mySecret)
+client.login(OTg3NzI5NzEyNjI3NDgyNjg0.GQ_mTI.428DKMYG-Mu7n9Ma3Kva8p2jOo0xo_lT_ZDH5Y)
